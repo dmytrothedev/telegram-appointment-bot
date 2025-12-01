@@ -35,12 +35,6 @@ Collects client details, records appointments into SQLite and notifies the admin
    git clone https://github.com/dmytrothedev/telegram-appointment-bot.git
    cd telegram-appointment-bot
 
-## Create a virtual environment (optional but recommended)
-
-python -m venv venv
-source venv/bin/activate    # Linux / macOS
-venv\Scripts\activate       # Windows
-
 
 ## Install dependencies
 
@@ -49,14 +43,16 @@ pip install -r requirements.txt
 
 ## Configure the bot. Create a new file config.py in the project folder using config_example.py as a template:
 
-TOKEN = "YOUR_TELEGRAM_BOT_TOKEN"
-ADMIN_ID = "YOUR_ADMIN_CHAT_ID"
-python -m venv venv
+    ``` bash
+    TOKEN = "YOUR_TELEGRAM_BOT_TOKEN"
+    ADMIN_ID = "YOUR_ADMIN_CHAT_ID"
+    python -m venv venv
 
 
 ## Run
 
-python main.py
+      ```bash
+      python main.py
 
 ---
 
