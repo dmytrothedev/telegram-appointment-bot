@@ -61,6 +61,7 @@ python main.py
 ---
 
 ## 📂 Project structure
+
 handlers/           # message & callback handlers
 keyboards/          # dynamic keyboards: services, dates, time, contact
 config_example.py   # configuration template (copy it to config.py locally)
