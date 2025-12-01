@@ -37,13 +37,12 @@ Collects client details, records appointments into SQLite and notifies the admin
 
 
 ## Install dependencies
-
-pip install -r requirements.txt
+    
+    pip install -r requirements.txt
 
 
 ## Configure the bot. Create a new file config.py in the project folder using config_example.py as a template:
 
-    ``` bash
     TOKEN = "YOUR_TELEGRAM_BOT_TOKEN"
     ADMIN_ID = "YOUR_ADMIN_CHAT_ID"
     python -m venv venv
@@ -51,21 +50,28 @@ pip install -r requirements.txt
 
 ## Run
 
-      ```bash
-      python main.py
+    python main.py
 
 ---
 
 ## 📂 Project structure
 
-handlers/           # message & callback handlers
-keyboards/          # dynamic keyboards: services, dates, time, contact
-config_example.py   # configuration template (copy it to config.py locally)
-db.py               # SQLite helper functions
-main.py             # entry point and Telegram bot setup
-requirements.txt    # dependencies
-.gitignore          # ignored files and folders
-README.md           # documentation
+handlers/           - message & callback handlers
+
+keyboards/          - dynamic keyboards: services, dates, time, contact
+
+config_example.py   - configuration template (copy it to config.py locally)
+
+db.py               - SQLite helper functions
+
+main.py             - entry point and Telegram bot setup
+
+requirements.txt    - dependencies
+
+.gitignore          - ignored files and folders
+
+README.md           - documentation
+
 
 
 ## 🔧 Customization
